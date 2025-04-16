@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Lotus, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Flower, Mail, Phone, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <Lotus size={28} className="text-agraharam-terracotta" />
+              <Flower size={28} className="text-agraharam-terracotta" />
               <span className="font-playfair text-xl font-semibold text-agraharam-terracotta">Sacred Harmony Haven</span>
             </div>
             

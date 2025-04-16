@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Lotus, Heart, Leaf } from 'lucide-react';
+import { Flower, Heart, Leaf } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const VisionSection = () => {
@@ -26,7 +25,7 @@ const VisionSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-agraharam-sandalwood/10 p-6 rounded-lg border border-agraharam-sandalwood/30 hover:border-agraharam-terracotta/30 transition-colors">
             <div className="w-12 h-12 flex items-center justify-center bg-agraharam-terracotta/10 rounded-full mb-4">
-              <Lotus className="h-6 w-6 text-agraharam-terracotta" />
+              <Flower className="h-6 w-6 text-agraharam-terracotta" />
             </div>
             <h3 className="font-playfair text-xl font-medium mb-3">Sacred Architecture</h3>
             <p className="text-foreground/80">
